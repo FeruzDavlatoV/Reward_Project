@@ -80,6 +80,8 @@ class MainAdapter(
 
     }
 
+
+    //Holder
     class NotGainedRewardViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
 
         val tvTitle = view.findViewById<TextView>(R.id.tv_title)
