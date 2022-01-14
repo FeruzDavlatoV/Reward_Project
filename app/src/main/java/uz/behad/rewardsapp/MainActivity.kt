@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    //Add items
     private fun addItems() {
         rewards.add(Reward("Senior GIF", "Level 3", 3, true, MainAdapter.GAINED))
         rewards.add(Reward("Senior Alt + Enter", "Level 5", 5, true, MainAdapter.GAINED))
